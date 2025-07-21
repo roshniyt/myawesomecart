@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-l%l3%k+b0yr!xh@6)*9$4no8)f!u&a=!+*c4e2#!ruqwa2a=#n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['myawesomecart-3.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
