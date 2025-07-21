@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: myawesomecart
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn myawesomecart.wsgi:application"
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: myawesomecart.settings
+      - key: PYTHON_VERSION
+        value: 3.11
